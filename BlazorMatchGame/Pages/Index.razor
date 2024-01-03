@@ -45,8 +45,6 @@ Welcome to your new app.
     </div>
 </div>
 
-
-
 @code{
     List<string> animalEmoji = new List<string>()
 {
@@ -86,8 +84,6 @@ Welcome to your new app.
         tenthsOfSecondsElapsed = 0;
     }
 
-
-
     private void ButtonClick(string animal, string animalDescription)
     {
         if (lastAnimalFound == string.Empty)
@@ -109,7 +105,7 @@ Welcome to your new app.
             if(matchesFound == 8)
             {
                 timer.Stop();
-                timeDisplay += " -Play Again?";
+                timeDisplay += " - Play Again?";
 
                 SetUpGame();
             }
